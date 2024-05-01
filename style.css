@@ -1,0 +1,101 @@
+
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 0.9rem;
+    font-family: "Outfit","Inter", sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    
+}
+
+.card {
+    background-color: hsl(0, 0%, 98%);
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 23rem;
+}
+
+#a {
+    color: hsl(229, 6%, 66%);
+    padding-bottom: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+}
+
+#b {
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#c {
+    padding-bottom: 2.5rem;
+}
+
+#card-s {
+    background-color: hsl(0, 0%, 100%);
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.supervisor {
+    border-top: 0.3rem hsl(180, 62%, 55%) solid;
+}
+
+.team {
+    border-top: 0.3rem hsl(0, 78%, 62%) solid;   
+}
+
+.karma {
+    border-top: 0.3rem hsl(34, 97%, 64%) solid;
+}
+
+.cal {
+    border-top: 0.3rem hsl(212, 86%, 64%) solid;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    padding-top: 2rem;
+    
+}
+
+@media only screen and (min-width:30rem) {
+    .card {
+        background-color: hsl(0, 0%, 98%);
+        padding: 2rem;
+        margin: 0 1rem;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .column-b {
+        display: block;
+    }
+    #card-s {
+        background-color: hsl(0, 0%, 100%);
+        margin: 2rem;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+    }
+}
